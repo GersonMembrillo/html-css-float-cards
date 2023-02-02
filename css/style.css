@@ -60,4 +60,6 @@ background-color: var(--bg-cards);
 
 img{
   float: left;
+  width: 100px;
+  height: 100px;
 }
