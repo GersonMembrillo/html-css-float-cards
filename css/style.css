@@ -17,6 +17,12 @@ body{
   background-color: var();
 }
 
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .container{
   max-width: 1200px;
   margin: 0 auto;
@@ -31,11 +37,12 @@ h1{
   text-align: center;
 }
 
-h2{
+h3, .card{
 color: var(--card-text);
+background-color: var(--bg-cards);
 }
 
-h3{
+.card :last-child{
   color: var(--card-evd);
 }
 
