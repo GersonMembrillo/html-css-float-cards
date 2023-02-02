@@ -42,10 +42,22 @@ color: var(--card-text);
 background-color: var(--bg-cards);
 }
 
-.card :last-child{
+.col :last-child{
   color: var(--card-evd);
+}
+
+.col{
+  float: left;
+  width: calc(100%/3);
+  color: var(--card-text);
+    background-color: var(--bg-cards);
+    text-align: ;
 }
 
 .description{
   text-align: center;
+}
+
+img{
+  float: left;
 }
