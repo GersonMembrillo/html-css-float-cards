@@ -1,3 +1,5 @@
+/* generali */
+
 *{
   margin: 0;
   padding: 0;
@@ -25,16 +27,19 @@ body{
   clear: both;
 }
 
+/* container */
 .container{
   max-width: 1200px;
   margin: 0 auto;
 }
 
+/* titolo */
 h1{
   color: var(--title);
   padding-top: 30px;
 }
 
+/* test */
 .text {
   text-align: center;
 }
