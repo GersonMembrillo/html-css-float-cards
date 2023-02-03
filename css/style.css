@@ -17,7 +17,8 @@ body{
   background-color: var();
 }
 
-/* per le tabelle sempre dentro i parent */
+/* per le tabelle sempre dentro i parent (contenitori) */
+/* vale anche per i conteniti (child) dentro altri contenitori (parent) */
 .clearfix::after{
   content: "";
   display: table;
